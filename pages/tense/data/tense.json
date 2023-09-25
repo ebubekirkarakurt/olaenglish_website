@@ -1,0 +1,98 @@
+[
+    {
+      "tense": "Present Perfect",
+      "positive": "I’m playing football. (Futbol oynuyorum.)",
+      "negative": "I’m not playing football. (Futbol oynamıyorum.)",
+      "question": "Am I playing football? (Futbol oynuyor muyum?)",
+      "situation": "Tam şu anda olan olaylar, belli bir zaman dilimiyle kısıtlı eylemler, önceden katılınacağı kararlaştırılmış planlar...",
+      "id": "1"
+    },
+    {
+      "tense": "Present Continuous",
+      "positive": "I’m playing football. (Futbol oynuyorum.)",
+      "negative": "I’m not playing football. (Futbol oynamıyorum.)",
+      "question": "Am I playing football? (Futbol oynuyor muyum?)",
+      "situation": "Tam şu anda olan olaylar, belli bir zaman dilimiyle kısıtlı eylemler, önceden katılınacağı kararlaştırılmış planlar...",
+      "id": "2"
+    },
+    {
+      "tense": "Present Perfect",
+      "positive": "I have seen that movie. (O filmi görmüştüm.)",
+      "negative": "It hasn’t drunk the water. (Suyu içmedi..)",
+      "question": "Where have I left my wallet? (Cüzdanımı nereye bıraktım?)",
+      "situation": "En yaygın kullanım alanı, geçmişte başlamış ve etkisi hala devam eden eylem ve durumlar için olan kullanımdır.",
+      "id": "3"
+    },
+    {
+      "tense": "Present Perfect Continuous",
+      "positive": "They have been making a cake for one hour. (Onlar bir saattir kek yapıyor.)",
+      "negative": "He has not been solving the test. (O, testi çözmüyor.)",
+      "question": "Have you been travelling for two years? (Sen 2 yıldır seyahat mi ediyorsun?)",
+      "situation": "Geçmişte başlayan ve günümüzde de devam eden olay ve durumları ifade etmektedir.",
+      "id": "4"
+    },
+    {
+      "tense": "Past Simple",
+      "positive": "I watched TV last night. (Dün gece televizyon seyrettim.)",
+      "negative": "He didn’t come to school yesterday. (O dün okula gelmedi.)",
+      "question": "Did you sleep well last night? (Dün gece iyi uyudun mu?)",
+      "situation": "Geçmişte belirli bir zamanda başlamış ve bitmiş eylemler için kullanılır.",
+      "id": "5"
+    },
+    {
+      "tense": "Past Continuous",
+      "positive": "I was studying lesson. (Ders çalışıyordum.)",
+      "negative": "I wasn’t eating an apple. (Ben elma yiyordum.)",
+      "question": "Was he playing football? (O, futbol mu oynuyordu?)",
+      "situation": "Geçmişte başlayıp bir süre devam edip bitmiş olayları anlatmak için kullanılır.",
+      "id": "6"
+    },
+    {
+      "tense": "Past Perfect",
+      "positive": "I played game after I had finished my homework. (Ödevlerimi bitirdikten sonra oyun oynadım.)",
+      "negative": "I had not written love poems until I met her. (Onunla tanışmadan önce aşk şiirleri yazmamıştım.)",
+      "question": "Had she gone to İstanbul to study? (Okumak için İstanbul'a gitmiş miydi?)",
+      "situation": "Geçmişte iki olay veya durumdan bahsedilirken, ilk önce gerçekleşeni ifade etmek için kullanılır.",
+      "id": "7"
+    },
+    {
+      "tense": "Past Perfect Continuous",
+      "positive": "I had been studying English for the last two days. (Son iki gündür İngilizce çalışıyordum.)",
+      "negative": "I hadn’t been trying to learn English. (İngilizce öğrenmeye çalışmıyordum.)",
+      "question": "Had you been living in İstanbul? (İstanbul’da mı yaşıyordun?)",
+      "situation": "Genellikle geçmişte gerçekleşmiş ve belli bir şey olana kadar gerçekleşmeye devam etmiş olan olayları anlatmak için kullanılır.",
+      "id": "8"
+    },
+    {
+      "tense": "Future Tense",
+      "positive": "Students will take exams next firday. (Öğrenciler gelecek Cuma sınava girecekler.)",
+      "negative": "I’m not going to play tennis (Tenis oynamayacağım.)",
+      "question": "Is he go to the doctor? (Doktora gidecek mi?)",
+      "situation": "Gelecekte gerçekleşecek bir iş veya eylem için kullanılır. ",
+      "id": "9"
+    },
+    {
+      "tense": "Future Continuous",
+      "positive": "I will be studying while he is making dinner. (O yemek yaparken, ben ders çalışıyor olacağım.)",
+      "negative": "He is not going to be playing tennis tomorrow afternoon. (Yarın öğleden sonra tenis oynamayacak.)",
+      "question": "Will you be singing in the concert tomorrow? (Yarın Konserde şarkı söyleyecek misin?)",
+      "situation": "Gelecekte gerçekleşecek olay veya durumun belli süreçte gerçekleşiyor olacağını ifade etmek için kullanılır.",
+      "id": "10"
+    },
+    {
+      "tense": "Future Perfect",
+      "positive": "I will have gone to my home until you come. (Sen gelene kadar ben evime gitmiş olacağım.)",
+      "negative": "Unfortunately, we won’t have finished work by midnight. (Maalesef gece yarısına kadar işimizi bitirmiş olmayacağız.)",
+      "question": "Will your friend have eaten already? (Arkadaşın çoktan yemek yemiş olacak mı?)",
+      "situation": "Bir işin gelecekte devamlı olarak ya da bir süre boyunca yapılacağını anlatır.",
+      "id": "11"
+    },
+    {
+      "tense": "Future Perfect Continuous",
+      "positive": "I will have been shopping on Monday. (Ben pazartesi günü alış-veriş yapmakta olacağım.)",
+      "negative": "He will not have been playing football on Sunday. (O, pazar günü futbol oynamakta olmayacak.)",
+      "question": "No, Ahmet won’t have been playing football on Sunday. (Hayır, Ahmet pazar günü futbol oynamakta olmayacak.)",
+      "situation": " Şu an ile gelecekte bir zaman arasında sonuçlanmamış bir eylem veya olayı belirtir.",
+      "id": "12"
+    }
+  ]

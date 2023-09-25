@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+textarea{
+    resize: none;
+}
+
+.container{
+    
+    background-color: white;
+    border-radius: 5px;
+    border-color: bisque;
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input:focus{
+    border-color: none;
+}
+
+#inputText{
+    
+    border-color: rgb(241, 241, 241);
+    border-color: none;
+    forced-color-adjust: none;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 20px;
+    height: 250px;
+    float: left;
+
+}
+
+#inputText2{
+
+    background-color: rgb(241, 241, 241);
+    border-color: none;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    float: right;
+
+}
+
+#translate{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}

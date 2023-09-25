@@ -1,0 +1,37 @@
+
+.tenselist{
+
+    background-color: white;
+    gap: 10px;
+    display: grid;
+    position:absolute;
+    border-radius: 20px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: -1;
+    margin-top: 18%;
+    padding: 30px;
+    width: 70%;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    list-style: none;
+
+}
+
+#tenseListButton{
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    list-style-type:  none;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/translator/style/translatorstyle.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Translator</title>
+</head>
+<body>
+
+    <nav class="navbar">
+
+        <div class="topnav">
+
+            <div id="topnavbarimg">
+                <img src="/assets/photos/logo2.jpg" alt="logo" id="logoimg">
+            </div>
+
+            <div id="topnavbar" style="margin-right: 4rem;">
+                <a href="/pages/tense/index.html">Tense'ler Konu Anlatımı</a>
+                <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
+                <a href="/pages/translator/translator.html">Translator</a>
+                <a href="#">Kelime Listeleri</a>
+                <a href="/index.html">Ana Sayfa</a>
+            </div>
+            
+           
+        </div>
+    </nav>
+
+    <div class="container">
+        <form >
+            <textarea id="inputText" type="text" placeholder="Metin Girin" cols="25" rows="5"></textarea>
+            <button id="translate">Çevir</button>
+            <textarea id="inputText2" placeholder="Çevrilen Metin" readonly cols="40" rows="5"></textarea>
+        </form>
+    </div>
+    <script src="/pages/translator/translatorapp.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.topnav {
+    background-color: #FFFF;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}  
+
+#logoimg{
+    position:absolute;
+    left: 10rem;
+    width: 180px;
+    height:100px;
+    display:inline;
+}
+
+#topnavbar a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 14px;
+    text-decoration: none;
+    margin: 15px 0px 0px 20px;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color:  rgb(241, 241, 241);
+    color: black;
+}
+
+
