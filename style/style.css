@@ -1,5 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(241, 241, 241);
+    flex-direction: column;
+    overflow-x: hidden;
+    display: flex;
 }
 
 .topnav {
@@ -8,9 +15,37 @@ body{
     height: 100px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
+    top: 0;
     
 }  
+
+.boxContainer{
+    position: absolute;
+    right: 40%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.box {
+    background-color: aqua;
+    width: 400px;
+    height: 500px;
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.box.show{
+    transform: translate(0);
+}
 
 #logoimg{
     position:absolute;
@@ -34,5 +69,3 @@ body{
     background-color:  rgb(241, 241, 241);
     color: black;
 }
-
-
