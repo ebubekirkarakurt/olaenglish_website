@@ -1,0 +1,26 @@
+.white{
+    background-color: white;
+    box-shadow: 30px -16px #faedcd;
+}
+
+.red{
+    background-color: #ffddd2;
+    box-shadow: 30px -16px #e29578;
+}
+
+.green{
+    background-color: #dedbd2;
+    box-shadow: 30px -16px #b0c4b1;
+}
+
+.blue{
+    background-color: #cbf3f0;
+    box-shadow: 30px -16px #2ec4b6;
+}
+
+.brown{
+    background-color: #eed7c5;
+    box-shadow: 30px -16px #c89f9c;
+
+}
+

@@ -4,55 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="/style/colors.css">
     <title>Ana Sayfa</title>
 </head>
 <body>
 
-    <nav class="navbar">
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
 
-        <div class="topnav">
-
-            <div id="topnavbarimg">
-                <img src="assets/photos/logo2.jpg" alt="logo" id="logoimg">
-            </div>
-
-            <div id="topnavbar" style="margin-right: 4rem;">
-                <a href="/pages/tense/index.html">Tense'ler Konu Anlatımı</a>
-                <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
-                <a href="/pages/translator/translator.html">Translator</a>
-                <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
-                <a href="/index.html">Ana Sayfa</a>
-            </div>
-            
-           
-        </div>
-    </nav>
-
-    <div class="boxContainer">
-
-        <div class="box">
-            <p>Content</p>
-       </div>
-       <div class="box">
-        <p>Content</p>
-        </div>
-        <div class="box">
-            <p>Content</p>
-        </div>
-        <div class="box">
-            <p>Contenttp>
-        </div>
-        <div class="box">
-            <p>Content</p>
-        </div>
-        <div class="box">
-            <p>Content</p>
-        </div>
+                <div class="topnav">
         
-    </div>
-   
+                    <div id="topnavbarimg">
+                        <img src="assets/photos/logo2.jpg" alt="logo" id="logoimg">
+                    </div>
+        
+                    <div id="topnavbar" style="margin-right: 4rem;">
+                        <a href="/pages/tense/index.html">Tense'ler Konu Anlatımı</a>
+                        <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
+                        <a href="/pages/translator/translator.html">Translator</a>
+                        <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
+                        <a href="/index.html">Ana Sayfa</a>
+                    </div>
+                    
+                   
+                </div>
+            </nav>
+        </header>
+    
+    
+        <main class="main">
+            <div class="boxContainer">
+    
+                <div class="box white">
+                    <img src="/assets/photos/homescreen.png" alt="homescreen" class="image">
+                    <div class="context">
+                        <p id="textTitle">OLA English'e hoş geldiniz!</p>
+                        <p>Kendi dil öğrenmenizi başlatmak için mükemmel zaman. Bu uygulama, kelime haznenizi genişletme, akıcı bir şekilde konuşma ve yeni bir dilde kendinizi ifade etmek için ihtiyacınız olan tüm araçları sunar.
+                        </p>
+                    </div>
+               </div>
+        
+               <div class="box red">
+                    <img src="/assets/photos/translator.png" alt="translator" class="image">
+                    <div class="context">
+                        <p id="textTitle">🌐OLA English Translator</p>
+                        <p> Yeni kelimeleri ve cümleleri öğrendiğinizde hemen pratik yapmak için çeviri aracımızı kullanın. Anlamı hızlı öğrenin ve cümlenizi yerel dilde ifade edin.</p>
+                    </div>
+                </div>
+        
+                <div class="box green">
+                    <img src="/assets/photos/wordlist.png" alt="wordlist" class="image">
+                    <div class="context">
+                        <p id="textTitle">📚Kelime Listeleri</p>
+                        <p> Yeni kelimeleri ve cümleleri öğrendiğinizde hemen pratik yapmak için çeviri aracımızı kullanın. Anlamı hızlı öğrenin ve cümlenizi yerel dilde ifade edin.</p>
+                    </div>
+                </div>
+        
+                <div class="box blue">
+                     <img src="/assets/photos/words.png" alt="wordlist" class="image">
+                    <div class="context">
+                        <p id="textTitle">📚Kelimeler ve Ezber</p>
+                        <p>Kelimeleri öğrenmek artık çok daha eğlenceli! Özenle kelimeleri ezberleyerek kelime haznenizi genişletin. Günlük kalıpların iyileştirilmesiyle bu özellik sayesinde öğrenme süreci keyifli ve etkili olacak.</p>
+                    </div>
+                </div>
+        
+                <div class="box brown">
+                    <img src="/assets/photos/reading.png" alt="reading" class="image">
+                    <div class="context">
+                        <p id="textTitle">🗣️Okuma Pratikleri</p>
+                        <p>Doğru telaffuz ve akıcı konuşma için özel olarak hazırlanmış okuma parçalarıyla pratik yapın. Metinleri birleştirerek ve ardından kendiliğinden okuyarak dillendirmenizi geliştirin.</p>
+                    </div>
+                </div>
+                <div class="footer">
 
+                </div>
+            
+            </div>
+        </main>        
+    </div>
+    
+    
 
     <script src="js/app.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,50 @@
+.topnav {
+    background-color: #FFFF;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    
+}  
+
+#topnavbar a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 14px;
+    text-decoration: none;
+    margin: 15px 0px 0px 20px;
+    font-size: 20px;
+}
+  
+.topnav a:hover {
+    background-color:  rgb(241, 241, 241);
+    color: black;
+    
+}
+
+#logoimg{
+    position:absolute;
+    left: 10rem;
+    width: 180px;
+    height:100px;
+    display:inline;
+    animation: grow-and-shrink 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+          
+}
+
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(0.7);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }

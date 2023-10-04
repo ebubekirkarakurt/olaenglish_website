@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
 			})
 		};
 
-		/*getData(url, options)
+		getData(url, options)
 		.then(data => inputText2.value = data.trans)
-		.catch(err => console.log(err));*/
+		.catch(err => console.log(err));
 		
 		}
 	);

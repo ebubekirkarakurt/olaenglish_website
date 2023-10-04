@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
-.tenselist{
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+    display: block;
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.container{
 
     background-color: white;
     gap: 10px;
+    position: fixed;
     display: grid;
-    position:absolute;
+    position:relative;
     border-radius: 20px;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    z-index: -1;
-    margin-top: 18%;
+    right: 20%;
+    transform: translate(50%,15%);
     padding: 30px;
+    overflow: scroll;
     width: 70%;
+    height: 900px;
+    
 }
-
+.container::-webkit-scrollbar {
+    background-color: transparent;
+}
 .btn{
     background-color: white;
     border-radius: 5px;
