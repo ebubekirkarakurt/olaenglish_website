@@ -13,6 +13,11 @@ body{
     height: 100%;
 }
 
+.phonenavbar{
+    display: block;
+    height: 100px;
+}
+
 .container{
     position: absolute;
     top: 20%;
@@ -78,4 +83,18 @@ p{
 #p-text::first-letter{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width:768px){
+    .item{
+        width: 90%;
+    }
+    .item-image {
+        flex: 0 0 200px; 
+        margin-right: 10px; 
+    }
+    #items-div{
+        font-size: 18px;
+        padding: 10px;
+    }
 }

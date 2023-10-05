@@ -10,6 +10,11 @@ body{
     background-color: rgb(241, 241, 241);
 }
 
+.phonenavbar{
+    display: block;
+    height: 100px;
+}
+
 textarea{
     resize: none;
 }
@@ -18,7 +23,6 @@ textarea{
     
     background-color: white;
     border-radius: 5px;
-    border-color: bisque;
     width: 800px;
     height: 300px;
     position: absolute;
@@ -32,9 +36,7 @@ input:focus{
 }
 
 #inputText{
-    
-    border-color: rgb(241, 241, 241);
-    border-color: none;
+
     forced-color-adjust: none;
     font-size: 20px;
     text-align: left;
@@ -42,7 +44,6 @@ input:focus{
     margin: 20px;
     height: 250px;
     float: left;
-
 }
 
 #inputText2{
@@ -61,6 +62,35 @@ input:focus{
 
 #translate{
     position: absolute;
-    top: 50%;
-    left: 43%;
+    top: 48%;
+    left: 40%;
+    background-color: rgb(175, 175, 175);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+}
+
+@media (max-width:768px){
+    .container{
+        width: 90%;
+        height: 49%;
+    }
+    #inputText{
+        font-size: 17px;
+        margin: 20px;
+        height: 200px;
+        width: 90%;
+        
+    }
+    #inputText2{
+        font-size: 17px;
+        margin: 20px;
+        height: 200px;
+        width: 90%;
+        
+    }
+    textarea:focus{
+        border-color: none;
+    }
 }

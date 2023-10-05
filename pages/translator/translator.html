@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/translator/style/translatorstyle.css">
     <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="/style/phone.css">
     <title>Translator</title>
 </head>
 <body>
@@ -23,9 +24,37 @@
                 <a href="/pages/translator/translator.html">Translator</a>
                 <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
                 <a href="/index.html">Ana Sayfa</a>
+            </div>   
+        </div>
+
+        <div class="phonenavbar">
+            <label for="toggle">
+                <i class="fa fa-bars hamburger"></i>
+            </label>
+
+            <div id="topnavbarimg">
+                <img src="/assets/photos/logo2.jpg" alt="logo" id="logoimg">
             </div>
-            
-           
+
+            <input type="checkbox" id="toggle" name="toogle">
+            <nav class="navigation--responsive">
+                <ul>
+                    <li>
+                        <a href="/index.html">Ana Sayfa</a>
+                    </li>
+                    <li>
+                        <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
+                    </li>
+                    <li>
+                        <a href="/pages/translator/translator.html">Translator</a>
+                    </li>
+                    <li>
+                        <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
+                    </li>
+                    <li>
+                        <a href="/pages/tense/index.html">Tense'ler</a>
+                    </li>
+                </ul>
         </div>
     </nav>
 
@@ -36,6 +65,9 @@
             <textarea id="inputText2" placeholder="Çevrilen Metin" readonly cols="40" rows="5"></textarea>
         </form>
     </div>
+    
     <script src="/pages/translator/translatorapp.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </body>
 </html>

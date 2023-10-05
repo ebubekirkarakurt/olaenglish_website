@@ -18,6 +18,11 @@ body{
 
 }
 
+.phonenavbar{
+    display: block;
+    height: 100px;
+}
+
 .wrapper{
     min-height: 100%;
     display: flex;
@@ -27,8 +32,6 @@ body{
 .main{
     flex: 1 1 auto;
 }
-
-
 
 .boxContainer{
     position: relative;
@@ -123,4 +126,29 @@ p{
 img{
     width: 100px;
     height: 100px;
+}
+
+@media (max-width:768px){
+    .boxContainer{
+        position: absolute;
+        top: 3%;
+    }
+    .box{
+        display: inline-block;
+        position: relative;
+        left: 15%;
+        width: 400px;
+        height: 850px;
+    }
+    .box img{
+        display: block;
+        height: 600px;
+        width: 80%;
+    }
+    .context {
+        position: absolute;
+        top: 70%;
+        width: 90%;
+
+    }
 }

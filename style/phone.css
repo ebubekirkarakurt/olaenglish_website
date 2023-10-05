@@ -1,0 +1,80 @@
+label[for = "toggle"]{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 6;
+    font-size: 3rem;
+}
+
+.navigation--responsive{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+svg.hamburger{
+    display: none;
+}
+
+@media (max-width : 768px) {
+    .phonenavbar{
+        display: block;
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        z-index: 6;
+    }
+    .topnavbarimg{
+        display: block;
+        position: absolute;
+    }
+    .topnav{
+        display: none;
+    }
+    svg.hamburger{
+        display: block;
+    }
+    .navigation--responsive{
+        display: block;
+        background: linear-gradient(to top, #be93c5, #7bc6cc);
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: -200vh;
+        padding: 0;
+        margin: 0;
+    }
+    .navigation--responsive ul{
+        display: block;
+        list-style: none;
+        height: 70vh;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 85px 0 0 0;
+        padding: 0;
+    }
+    .navigation--responsive ul li{
+        padding: 0;
+        margin: 0;
+    }
+    .navigation--responsive ul li a{
+        padding: 50px 20px 50px 30px;
+        text-decoration: none;
+        color: black;
+    }
+    
+ 
+
+}
+
+#toggle:checked ~ .navigation--responsive{
+    top: 0vh;
+}
+
+svg.hamburger{
+    display: block;
+}

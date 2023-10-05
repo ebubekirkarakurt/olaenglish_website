@@ -5,31 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/reading/style/style.css">
     <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="/style/phone.css">
     <title>Reading</title>
 </head>
 <body>
 
-    <nav class="navbar">
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
 
-        <div class="topnav">
+                <div class="topnav">
+        
+                    <div id="topnavbarimg">
+                        <img src="assets/photos/logo2.jpg" alt="logo" id="logoimg">
+                    </div>
+        
+                    <div id="topnavbar" style="margin-right: 4rem;">
+                        <a href="/pages/tense/index.html">Tense'ler Konu Anlatımı</a>
+                        <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
+                        <a href="/pages/translator/translator.html">Translator</a>
+                        <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
+                        <a href="/index.html">Ana Sayfa</a>
+                    </div>
+                    
+                   
+                </div>
 
-            <div id="topnavbarimg">
-                <img src="/assets/photos/logo2.jpg" alt="logo" id="logoimg">
-            </div>
+                <div class="phonenavbar">
+                    <label for="toggle">
+                        <i class="fa fa-bars hamburger"></i>
+                    </label>
 
-            <div id="topnavbar" style="margin-right: 4rem;">
-                <a href="/pages/tense/index.html">Tense'ler Konu Anlatımı</a>
-                <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
-                <a href="/pages/translator/translator.html">Translator</a>
-                <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
-                <a href="/index.html">Ana Sayfa</a>
-            </div>
-           
+                    <div id="topnavbarimg">
+                        <img src="/assets/photos/logo2.jpg" alt="logo" id="logoimg">
+                    </div>
+
+                    <input type="checkbox" id="toggle" name="toogle">
+                    <nav class="navigation--responsive">
+                        <ul>
+                            <li>
+                                <a href="/index.html">Ana Sayfa</a>
+                            </li>
+                            <li>
+                                <a href="/pages/wordlists/index.html">Kelime Listeleri</a>
+                            </li>
+                            <li>
+                                <a href="/pages/translator/translator.html">Translator</a>
+                            </li>
+                            <li>
+                                <a href="/pages/reading/index.html">Kitap ve Hikayeler</a>
+                            </li>
+                            <li>
+                                <a href="/pages/tense/index.html">Tense'ler</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+
+            </header>
         </div>
-    </nav>
 
     <div class="container"></div>
 
     <script src="app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </body>
 </html>

@@ -20,6 +20,10 @@ body{
 	margin: 150px auto;
 }
 
+.phonenavbar{
+    display: block;
+    height: 100px;
+}
 
 .view_main{
 	background: #fff;
@@ -54,4 +58,19 @@ body{
 .content{
     font-size: 16px;
     text-align: end;
+}
+
+@media (max-width:768px) {
+    .grid-view .view_item{
+        display: inline-block;
+        border: 1px solid #e2efe1;
+        width: 150px;
+        height: 60px;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+    .wrapper{
+        width: 80%;
+    }
 }
