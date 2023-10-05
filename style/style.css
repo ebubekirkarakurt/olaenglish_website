@@ -24,7 +24,6 @@ body{
 }
 
 .wrapper{
-    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -136,19 +135,21 @@ img{
     .box{
         display: inline-block;
         position: relative;
-        left: 15%;
-        width: 400px;
-        height: 850px;
+        left: 2%;
+        width: 370px;
+        height: 750px;
     }
     .box img{
         display: block;
-        height: 600px;
+        height: 550px;
         width: 80%;
+        position: relative;
+        left: 7%;
     }
     .context {
         position: absolute;
         top: 70%;
         width: 90%;
-
+        
     }
 }

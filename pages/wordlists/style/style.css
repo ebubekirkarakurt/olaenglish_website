@@ -64,13 +64,14 @@ body{
     .grid-view .view_item{
         display: inline-block;
         border: 1px solid #e2efe1;
-        width: 150px;
-        height: 60px;
+        width: 130px;
+        height: 50px;
         border-radius: 5px;
         padding: 15px;
         margin: 5px;
+        overflow: scroll;
     }
     .wrapper{
-        width: 80%;
+        width: 95%;
     }
 }

@@ -90,11 +90,20 @@ p{
         width: 90%;
     }
     .item-image {
+        display: block;
         flex: 0 0 200px; 
         margin-right: 10px; 
+        width: 90%;
     }
     #items-div{
-        font-size: 18px;
+        font-size: 14px;
         padding: 10px;
+    }
+    .item-text{
+        font-size: 17px;
+    }
+    .item-content{
+        display: block;
+        
     }
 }
