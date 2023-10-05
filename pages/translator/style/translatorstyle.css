@@ -74,19 +74,22 @@ input:focus{
 @media (max-width:768px){
     .container{
         width: 90%;
-        height: 53%;
+        height: 60%;
     }
     #inputText{
         font-size: 17px;
         margin: 20px;
-        height: 200px;
+        height: 150px;
         width: 90%;
         
+    }
+    #translate{
+        top: 45%;
     }
     #inputText2{
         font-size: 17px;
         margin: 20px;
-        height: 200px;
+        height: 150px;
         width: 90%;
         
     }

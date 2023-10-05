@@ -64,12 +64,16 @@ body{
     .grid-view .view_item{
         display: inline-block;
         border: 1px solid #e2efe1;
-        width: 130px;
+        width: 110px;
         height: 50px;
         border-radius: 5px;
         padding: 15px;
         margin: 5px;
         overflow: scroll;
+    }
+    .grid-view::-webkit-scrollbar {
+        background-color: transparent;
+        width: 2px;
     }
     .wrapper{
         width: 95%;
