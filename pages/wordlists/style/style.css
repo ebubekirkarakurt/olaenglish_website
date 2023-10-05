@@ -78,4 +78,9 @@ body{
     .wrapper{
         width: 95%;
     }
+    #topnavbarimg{
+        display: block;
+        position: relative;
+        right: 20%; 
+    }
 }

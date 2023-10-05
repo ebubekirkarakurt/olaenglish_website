@@ -135,21 +135,28 @@ img{
     .box{
         display: inline-block;
         position: relative;
-        left: 2%;
-        width: 370px;
-        height: 750px;
+        left: 5%;
+        width: 300px;
+        height: 600px;
     }
     .box img{
         display: block;
-        height: 550px;
+        height: 450px;
         width: 80%;
         position: relative;
         left: 7%;
     }
     .context {
         position: absolute;
-        top: 70%;
+        top: 71%;
         width: 90%;
-        
+    }
+    #topnavbarimg{
+        display: block;
+        position: relative;
+        right: 4%; 
+    }
+    p{
+        font-size: 13px;
     }
 }

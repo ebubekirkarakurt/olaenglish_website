@@ -74,7 +74,7 @@ input:focus{
 @media (max-width:768px){
     .container{
         width: 90%;
-        height: 60%;
+        height: 52%;
     }
     #inputText{
         font-size: 17px;
@@ -84,7 +84,8 @@ input:focus{
         
     }
     #translate{
-        top: 45%;
+        top: 46%;
+        left: 37%;
     }
     #inputText2{
         font-size: 17px;
@@ -95,5 +96,10 @@ input:focus{
     }
     textarea:focus{
         border-color: none;
+    }
+    #topnavbarimg{
+        display: block;
+        position: relative;
+        right: 20%; 
     }
 }

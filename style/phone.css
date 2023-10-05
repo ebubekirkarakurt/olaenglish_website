@@ -26,11 +26,6 @@ svg.hamburger{
         position: fixed;
         z-index: 6;
     }
-    #topnavbarimg{
-        display: block;
-        position: relative;
-        right: 9%; 
-    }
     .topnav{
         display: none;
     }

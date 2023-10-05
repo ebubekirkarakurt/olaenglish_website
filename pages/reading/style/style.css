@@ -106,4 +106,9 @@ p{
         display: block;
         
     }
+    #topnavbarimg{
+        display: block;
+        position: relative;
+        right: 20%; 
+    }
 }

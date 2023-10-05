@@ -57,3 +57,11 @@ body{
     list-style-type:  none;
 
 }
+
+@media (max-width : 768px){
+    #topnavbarimg{
+        display: block;
+        position: relative;
+        right: 20%; 
+    }
+}
